@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <TITLE> MGIT-Registration</TITLE>
+       <style>
+           .main{height: 100vh;
+              width: 100vw;} 
+       </style>
+        <script>
+    function sub(){
+        alert("You have successfully registered");
+        document.getElementById("myForm").reset();
+    }
+        </script>
+
+    </head>
+    <body>
+        <section class="main">
+          <header>
+               <div class="logo">
+                   <a href="index.html"><img src="assets/images/logo.jpg" alt="college-logo"></a>
+               </div>
+               <div class="heading">
+                   <h1>MAHATMA GANDHI INSTITUTE OF TECHNOLOGY</h1><br>
+                   <h3>Gandipet Main Rd, Kokapet, Hyderabad, Telangana 500075</h3>
+               </div> 
+                 <div class="main-nav">
+                     <nav>
+                          <a href="register.html"> Register</a>
+                          <a href="course.html"> Courses</a>
+                          <a href="contact.html"> Contact-us</a>
+                     </nav>     
+                 </div>
+            
+           </header>
+        <section class="registration">
+                <div class="register-form">
+                   <h4>REGISTRATION</h4>
+                   <form method="get" action="#" id="myForm">
+                      <label>NAME</label>&nbsp;&nbsp;&nbsp;
+                      <input type="text" name="name" placeholder="FULL NAME" required>
+                       <br>
+                      <label>EMAIL</label>&nbsp;&nbsp;&nbsp;
+                      <input type="text" name="email" placeholder="EMAIL-ID" required>
+                       <br>
+                       <label>COURSE</label>&nbsp;&nbsp;&nbsp;
+                       <select name="course">
+            <option value="COMPUTER SCIENCE ENGINEERING" selected>COMPUTER SCIENCE ENGINEERING</option> 
+            <option value="ELECTRICAL ENGINEERING">ELECTRICAL ENGINEERING</option> 
+            <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option> 
+                       <br>
+                       </select><br>
+             <button onclick="sub()">Register</button>  
+                    </form>
+            
+                </div>
+                <div class="register-help">
+                   <h4>INSTRUCTIONS</h4>
+                       <ol start="1">
+                          <li>Enter your full name in the name section.</li> 
+                          <li>Enter your email address in the email section.</li> 
+                          <li>Choose your course.</li> 
+                          <li>Click on register.</li> 
+                          <li>Our college administration will contact you soon.</li> 
+                       </ol>
+                </div>
+        </section>
+        
+        </section>
+            
+        <section class="foot" id="f">
+        
+            <footer>
+                  <p class="footer-intro">To know more about our college and for regular updates,follow us on:</p>
+                  <a href="#"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+                  <a href="#" ><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+                  <a href="#"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+                  <a href="mailto:vamsikiransalapu2001@gmail.com" target="_blank"><ion-icon name="mail-open-outline" size="large"></ion-icon></a>
+            </footer>
+        
+        
+        </section>
+        <!--- ICONS(*Can be accessed only if you have internet connection)------------------------>
+       <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <!----- ----------------------------------------------------------------------->
+    </body>
+    
+    
+</html>

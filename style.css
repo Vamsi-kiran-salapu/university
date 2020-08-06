@@ -1,0 +1,416 @@
+
+/*======================================
+    BASIC SETUP
+========================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	 box-sizing:border-box;
+}
+/*======================================
+========================================*/
+
+/*======================================
+    BACKGROUND- IMAGE
+========================================*/
+
+.main{
+    background-image: linear-gradient(rgba(252, 246, 246, 0.72),rgba(252, 246, 246, 0.72)),url(assets/images/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 15%;
+}
+/*======================================
+========================================*/
+
+/*======================================
+    HEADER+LOGO+NAV
+========================================*/
+
+header{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 0.5fr 3fr 1fr;
+    width: 100%;
+}
+.logo img{
+    height: 100px;
+    width: auto;
+    transform: scale(1.05);
+}
+.logo img:hover{transform: scale(1);}
+.heading{
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    font-size: 200%;
+    color: #0c4476;
+}
+h6{
+    font-size: 100%;
+    color: #0c4476;
+}
+.main-nav{
+    padding: 80px 0 20px 0;
+}
+.main-nav a:link,
+.main-nav a:visited{
+    text-decoration: none;
+    padding: 10px;
+    color: #0830d8;
+    font-size: 120%;
+    display: inline-block;
+}
+.main-nav a:hover,
+.main-nav a:active{
+    background-color: #f8fafc;
+    color: #ff4e00;
+    display: inline-block;
+}
+/*======================================
+========================================*/
+
+/*====================================== 
+           FOOTER
+========================================*/
+.foot{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    background-color: #033f91;
+    color: #fff;
+}
+footer{margin-left: 20%;line-height: 145%;}
+footer a:link,
+footer a:visited{text-decoration: none;
+              color: #fff;}
+footer a:hover,
+footer a:active{text-decoration: none;
+              color: #ff4e00;}
+.footer-intro{
+    font-size: 120%;
+    padding-bottom: 3%;
+}
+
+
+
+/*======================================            /*=======================================
+                                                    TILL HERE EVERYTHING IS COMMON FOR ALL PAGES.
+========================================*/          =========================================*/
+                                                    
+
+/*======================================           
+     INTRO OF HOME PAGE                                            
+========================================*/         
+                                             
+.intro{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.intro-para{padding: 4% 1%;}
+.intro-para p{
+    font-family: sans-serif;
+    color: #f20b0b;
+    font-size: 130%;
+    line-height: 150%;
+    font-weight: 500;
+}
+.intro-para h2{
+    color: #0830d8;
+    font-size: 150%;
+}
+.intro-button{
+    text-align: center;
+    padding: 3% 0;
+}
+.intro-button a:link,
+.intro-button a:visited{
+    text-decoration: none;
+    display: inline-block;
+     padding: 1% 2%;
+    border-radius: 200px;
+    margin-right: 4%;
+    background-color: #fff;
+    color: #0830d8;
+}
+
+.intro-button a:hover,
+.intro-button a:active{
+    background-color: #0830d8;
+    color: #ff4e00;
+}
+
+/*======================================                                                       
+========================================*/         
+/*======================================           
+     NEWS SECTION OF HOME PAGE                                            
+========================================*/         
+
+.news{
+    padding: 50px 30px;
+    background-color: #e4e8e8;
+}
+h4{
+    text-align: center;
+    color: #0830d8;
+    font-size: 170%;
+}
+.news-link{
+    padding-top: 30px;
+    text-align: center;
+    line-height: 170%;
+}
+.news-link a:link,
+.news-link a:visited{
+    text-decoration: none;
+    font-size: 110%;
+    color: #ff4e00;
+}
+.news-link a:hover,
+.news-link a:active{
+    color: #0830d8;
+}
+
+/*======================================                                                       
+========================================*/         
+/*======================================           
+     COURSE TEASER SECTION OF HOME PAGE                                            
+========================================*/         
+
+.course-teaser{
+    padding: 50px 20px;
+}
+.course-teaser p{
+    padding-top: 20px;
+    text-align: center;
+    color: #ff4e00;
+    font-size: 110%;
+    line-height: 145%;
+}
+.course-teaser-main{
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    padding-top: 20px; 
+}
+.course-teaser-main h2{
+    font-size: 120%;
+    text-align: center;
+    padding: 3% 0;
+    color:  #0830d8;
+}
+.course-teaser-main p{text-align: justify;padding: 3% 3%;}
+.comp{
+    background-color: #e1e1e1;
+    grid: 1/2;
+}
+.elect{
+     background-color: #e1e1e1;
+     grid: 2/3;
+}
+.mech{
+    background-color: #e1e1e1;
+    grid: 3/4;
+}
+.course-teaser-main a:link,
+.course-teaser-main a:visited{
+    text-decoration: none;
+    display: inline-block;
+     padding: 3% 4%;
+    border-radius: 200px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: #fff;
+    color: #0830d8;
+}
+
+.course-teaser-main a:hover,
+.course-teaser-main a:active{
+    background-color: #0830d8;
+    color: #ff4e00;
+}
+
+/*======================================                                                       
+========================================*/         
+/*======================================           
+  COURSES PAGE (all sections)                                          
+========================================*/         
+.computer{
+    padding: 80px 30px;
+}
+.computer img{
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 35px 0;
+    transform: scale(1.03);
+    transition: transform 1s;
+}
+.computer img:hover{transform: scale(1.25);}
+
+.computer p{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #ff4e00;
+    padding: 20px 20px;
+    line-height: 150%;
+}
+/*-------------------------------------------------------*/
+.electrical{
+    padding: 80px 30px;
+    background-color: #f0f0f0;
+}
+.electrical img{
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 35px 0;
+    transform: scale(1.03);
+    transition: transform 1s;
+}
+.electrical img:hover{transform: scale(1.25);}
+
+.electrical p{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #ff4e00;
+    padding: 20px 20px;
+    line-height: 150%;
+}
+/*-------------------------------------------------------*/
+.mechanical{
+    padding: 80px 30px;
+}
+.mechanical img{
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 35px 0;
+    transform: scale(1.03);
+    transition: transform 1s;
+}
+.mechanical img:hover{transform: scale(1.25);}
+
+.mechanical p{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #ff4e00;
+    padding: 20px 20px;
+    line-height: 150%;
+}
+/*-------------------------------------------------------*/
+
+/*======================================                                                       
+========================================*/         
+/*======================================           
+  REGISTRATION PAGE                                          
+========================================*/         
+.registration{
+  display: grid;
+   grid-template-rows: 400px;
+   grid-template-columns: 3fr 2fr;
+   padding-top: 5%;
+}
+form{
+    margin-left: 30%;
+    padding-top: 5%;
+}
+label{
+    color: #ff4e00;
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 500%;
+}
+input{
+    width: 50%;
+    height: 40%;
+}
+button{
+    color:#fff;
+    background-color: #4a80fc;
+    padding: 2% 5%;
+    margin-left: 20%;
+    border: 0;
+}
+button:hover{background-color: #ff4e00; color:#0830d8;}
+.register-form{
+}
+.register-help{
+}
+.register-help ol{
+    padding: 5% 20%;
+}
+.register-help li{
+    list-style: circle;
+    font-family: sans-serif;
+    font-size: 120%;
+    line-height: 180%;
+    color: red;
+}
+
+/*======================================                                                       
+========================================*/         
+/*======================================           
+  CONTACT-US PAGE                                          
+========================================*/         
+.contact{padding: 5% 5%; grid-column: 2/3;}
+textarea{width: 40%;
+height: 50%;
+}
+
+
+
+
+
+
