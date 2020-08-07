@@ -447,6 +447,7 @@ height: 50%;
 @media only screen and (max-width:480px){
     h1{font-size: 90%;}
     h3{font-size: 40%;}
+    p{font-weight: 100;}
     .logo img{height: 50px; width: 50px;}
     .main-nav a:link{font-size: 75%;margin-top: 3%;}
     .main-nav{padding: 0;}
@@ -457,9 +458,9 @@ height: 50%;
     .register-help li{font-size: 60%;}
     .contact{grid-column: 1/-1;}
     img{width: 150px;height: 150px;}
-    .comp p{font-size: 90%;}
-    .elect p{font-size: 90%;}
-    .mech p{font-size: 90%;}
+    .comp p{font-size: 70%; font-weight: 100;}
+    .elect p{font-size: 70%; font-weight: 100;}
+    .mech p{font-size: 70%; font-weight: 100;}
 }
 
 
