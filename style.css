@@ -434,7 +434,7 @@ height: 50%;
     .mech{grid-column: 1/4;}
     .course-teaser-main a:link{margin-top: 5%;}
     img{height: 100px;width: 100px;}
-    .main{height: 2000px;overflow: scroll;}
+    .main{overflow: scroll;}
     button{margin-top: 5%;}
 }
 /* small phones to small tablets from:481px to 767px*/
