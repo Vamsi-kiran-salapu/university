@@ -448,6 +448,7 @@ height: 50%;
     h1{font-size: 90%;}
     h3{font-size: 40%;}
     p{font-weight: 100;}
+    .intro-para p{font-weight: 200;}
     .logo img{height: 50px; width: 50px;}
     .main-nav a:link{font-size: 75%;margin-top: 3%;}
     .main-nav{padding: 0;}
@@ -458,9 +459,10 @@ height: 50%;
     .register-help li{font-size: 60%;}
     .contact{grid-column: 1/-1;}
     img{width: 150px;height: 150px;}
-    .comp p{font-size: 70%; font-weight: 100;}
-    .elect p{font-size: 70%; font-weight: 100;}
-    .mech p{font-size: 70%; font-weight: 100;}
+    .comp p{font-size: 70%; font-weight: 300;}
+    .elect p{font-size: 70%; font-weight: 300;}
+    .mech p{font-size: 70%; font-weight: 300;}
+    .course-teaser p{font-size: 75%;}
 }
 
 
